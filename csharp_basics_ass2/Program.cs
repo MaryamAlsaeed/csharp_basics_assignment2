@@ -36,6 +36,16 @@
             Console.WriteLine();
 
             //------------------------------
+
+            //Q4
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            for (int j = 0; j < books.Length; j++)
+            {
+                Console.WriteLine($"Book: {books[j]} and position: {j + 1}");
+            }
+            Console.WriteLine();
+
+            //------------------------------
         }
     }
 }
