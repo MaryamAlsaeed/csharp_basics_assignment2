@@ -91,6 +91,20 @@
             Console.WriteLine();
 
             //------------------------------
+
+            //Q9
+
+            for (int l = 0; l < books.Length; l++)
+            {
+                if (books[l] == "The Pragmatic Programmer")
+                {
+                    continue;
+                }
+                Console.WriteLine(books[l]);
+            }
+            Console.WriteLine();
+
+            //------------------------------
         }
     }
 }
