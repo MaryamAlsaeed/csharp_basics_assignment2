@@ -30,7 +30,12 @@
 
             //------------------------------
 
+            //Q3
+            int pagess = 464;
+            string sizeLabel = pagess > 300 ? "Long Book" : "Small Book";
+            Console.WriteLine();
 
+            //------------------------------
         }
     }
 }
