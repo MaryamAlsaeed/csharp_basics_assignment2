@@ -58,7 +58,17 @@
 
             //------------------------------
 
+            //Q6
+            int cnt = 0;
+            do
+            {
+                Console.WriteLine("Checking book...");
+                cnt++;
+            }
+            while (cnt < 3);
+            Console.WriteLine();
 
+            //------------------------------
         }
     }
 }
