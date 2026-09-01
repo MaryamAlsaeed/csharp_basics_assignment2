@@ -2,6 +2,11 @@
 {
     internal class Program
     {
+        static void printFirstBook(string[] books)
+        {
+            if (books.Length == 0) return;
+            Console.WriteLine($"First book: {books[0]}");
+        }
         static void Main(string[] args)
         {
             //Q1
@@ -105,6 +110,10 @@
             Console.WriteLine();
 
             //------------------------------
+
+            //Q10
+            printFirstBook(books);
+            Console.WriteLine();
         }
     }
 }
