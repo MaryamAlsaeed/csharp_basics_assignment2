@@ -79,7 +79,18 @@
 
             //------------------------------
 
+            //Q8
+            for (int k = 0; k < books.Length; k++)
+            {
+                if (books[k] == "Refactoring")
+                {
+                    break;
+                }
+                Console.WriteLine(books[k]);
+            }
+            Console.WriteLine();
 
+            //------------------------------
         }
     }
 }
