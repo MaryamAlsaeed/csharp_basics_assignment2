@@ -46,6 +46,19 @@
             Console.WriteLine();
 
             //------------------------------
+
+            //Q5
+            int i = 0;
+            while (i < books.Length)
+            {
+                Console.WriteLine($"Book: {books[i]} and position: {i + 1}");
+                i++;
+            }
+            Console.WriteLine();
+
+            //------------------------------
+
+
         }
     }
 }
