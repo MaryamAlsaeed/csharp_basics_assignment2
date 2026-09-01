@@ -69,6 +69,17 @@
             Console.WriteLine();
 
             //------------------------------
+
+            //Q7
+            foreach (string book in books)
+            {
+                Console.WriteLine("Book title: " + book);
+            }
+            Console.WriteLine();
+
+            //------------------------------
+
+
         }
     }
 }
